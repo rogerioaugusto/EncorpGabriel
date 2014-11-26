@@ -1583,8 +1583,8 @@ ul#equipe p{text-align: center; border-style: double; font-family: sans-serif;}
 ul#equipe li{text-align: center;}
 
 div#encima{
-    width: 350;
-    height: 10;    
+    width: 500px;
+    height: 100px;    
 }
 
 div#textfuncionarios {
@@ -1605,11 +1605,10 @@ ul#menutextfunc li {
 
 ul#menutextcabe li{
     list-style-type: none;
-    width: 100px;
-    overflow: hidden;
-    margin-bottom: 4;
+    width: 60px;
+    overflow: auto;
+    margin-bottom: 4;  
 }
-
 /* Não modificando a em um modo lista, tamanho defaut, sem bolinhas do lado, arredando para chegar proximo ao texto escrito e ancora na direita.*/
 ul#inputcabe li{
     list-style-type: none;
@@ -1617,8 +1616,6 @@ ul#inputcabe li{
     float: right;
     margin-right:
 }
-
-h4#controle{padding-left: 600px;}
 
 ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 70px;margin-top: 50px}
 
