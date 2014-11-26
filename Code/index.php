@@ -323,14 +323,16 @@ $(document).pngFix( );
 			
              <form action="" method="post" accept-charset="UTF-8">   
         <div id="site">
-            <div id="cabecalho">
-            <div id="cabecalho">
-                </div>
-                <ul id="inputcabe">
+                <div id="encima">
+                        <ul id="menutextcabe">
+                            <li>Tarefa</li>
+                            <li>Obra</li>
+                        </ul> 
+                    <ul id="inputcabe">
                             <li><input type='text' name='tarefa' id='tarefa' placeholder="Nome da tarefa"></li>
-                            <li><input type='text' name='user' id='user' placeholder="Nome do usuario"></li>
                             <li><input type='text' name='obra' id='obra' placeholder="Nome da obra"></li>
                         </ul>
+                    </div>
                         <ul id="resto">
                             <li>Torre: <input type='text' name='torre' id='torre' placeholder="Numero de torres"></li>
                             <li>Pav: <input type='text' name='pav' id='pav' placeholder="Numero de pavimentos"></li>
@@ -349,13 +351,7 @@ $(document).pngFix( );
                     </ul>
 
                 </div>
-                <div id="encima">
-                        <ul id="menutextcabe">
-                            <li>Tarefa</li>
-                            <li>Usuario</li>
-                            <li>Obra</li>
-                        </ul> 
-                </div>
+                
                 <div id="textfuncionarios">
                     <ul id="menutextfunc">
                         <li>Nome</li>

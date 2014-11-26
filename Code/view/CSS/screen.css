@@ -1560,16 +1560,16 @@ a:hover.back-login	{
 
 
 div#inputfuncionarios {
-    width: 900px;
-    height: 1200px;
-    margin-left: 05;
+    width: 760px;
+    height: 330px;
+    margin-top: 5px;
 }
 
 div#tipofunc{
-    width: 410;
-    height: 400;
+    width: 400;
+    height: 4000;
     float: right;
-    margin-top: 90;
+    margin-top: 100px;
 }
 
 ul#tiposfuncionarios p{text-align: center; border-style:double; font-family: sans-serif;}
@@ -1584,13 +1584,14 @@ ul#equipe li{text-align: center;}
 
 div#encima{
     width: 350;
-    height: 170;    
+    height: 10;    
 }
 
 div#textfuncionarios {
     background-color: white;
     width: 600;
     height: 20;
+    margin-top: 50px;
 }
 ul#menutext {
     background-color: white;
@@ -1614,11 +1615,11 @@ ul#inputcabe li{
     list-style-type: none;
     display:list-item;
     float: right;
-    margin-right: 1555;
+    margin-right:
 }
 
 h4#controle{padding-left: 600px;}
 
-ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 450;}
+ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 70px;margin-top: 50px}
 
 ul#resto li{margin-left: 10;}
