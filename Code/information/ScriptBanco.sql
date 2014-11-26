@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS funcionario
     data_admissao DATE,
     data_demissao DATE,
     id_situacao INTEGER,
-    id_funcao INTEGER,w
+    id_funcao INTEGER,
     id_pessoa INTEGER
 );
 

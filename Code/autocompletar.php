@@ -1,23 +1,23 @@
-﻿
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>City Encorp</title>
-<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="default" />
+<link rel="stylesheet" href="view/CSS/screen.css" type="text/css" media="screen" title="default" />
 <!--[if IE]>
 <link rel="stylesheet" media="all" type="text/css" href="css/pro_dropline_ie.css" />
 <![endif]-->
 
 <!--  jquery core -->
-<script src="js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
 
 <!--  checkbox styling script -->
-<script src="js/jquery/ui.core.js" type="text/javascript"></script>
-<script src="js/jquery/ui.checkbox.js" type="text/javascript"></script>
-<script src="js/jquery/jquery.bind.js" type="text/javascript"></script>
-<script src="js/otherjquery.js" type="text/javascript"></script>
+<script src="view/js/jquery/ui.core.js" type="text/javascript"></script>
+<script src="view/js/jquery/ui.checkbox.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.bind.js" type="text/javascript"></script>
+<script src="view/js/otherjquery.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function(){
 	$('input').checkBox();
@@ -36,7 +36,7 @@ $(function(){
 <![if !IE 7]>
 
 <!--  styled select box script version 1 -->
-<script src="js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.styledselect').selectbox({ inputClass: "selectbox_styled" });
@@ -47,7 +47,7 @@ $(document).ready(function() {
 <![endif]>
 
 <!--  styled select box script version 2 --> 
-<script src="js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.styledselect_form_1').selectbox({ inputClass: "styledselect_form_1" });
@@ -56,7 +56,7 @@ $(document).ready(function() {
 </script>
 
 <!--  styled select box script version 3 --> 
-<script src="js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.styledselect_pages').selectbox({ inputClass: "styledselect_pages" });
@@ -64,7 +64,7 @@ $(document).ready(function() {
 </script>
 
 <!--  styled file upload script --> 
-<script src="js/jquery/jquery.filestyle.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.filestyle.js" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
   $(function() {
       $("input.file_1").filestyle({ 
@@ -80,8 +80,8 @@ $(document).ready(function() {
 <script src="js/jquery/custom_jquery.js" type="text/javascript"></script>
  
 <!-- Tooltips -->
-<script src="js/jquery/jquery.tooltip.js" type="text/javascript"></script>
-<script src="js/jquery/jquery.dimensions.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.tooltip.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.dimensions.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function() {
 	$('a.info-tooltip ').tooltip({
@@ -98,9 +98,9 @@ $(function() {
 
 
 <!--  date picker script -->
-<link rel="stylesheet" href="css/datePicker.css" type="text/css" />
-<script src="js/jquery/date.js" type="text/javascript"></script>
-<script src="js/jquery/jquery.datePicker.js" type="text/javascript"></script>
+<link rel="stylesheet" href="view/CSS/datePicker.css" type="text/css" />
+<script src="view/js/jquery/date.js" type="text/javascript"></script>
+<script src="view/js/jquery/jquery.datePicker.js" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
         $(function()
 {
