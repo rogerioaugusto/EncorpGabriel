@@ -66,14 +66,14 @@ way to fit your requirements.
 	}
 .nav .select a:hover, 
 .nav .select li:hover a	{
-	background: url(../images/shared/nav/pro_line_1.gif);
+	background: url(../../images/shared/nav/pro_line_1.gif);
 	color: #fff;
 	cursor: pointer;
 	padding: 0 0 0 15px;
 	}
 .nav .select a:hover b, 
 .nav .select li:hover a b	{
-	background: url(../images/shared/nav/pro_line_1.gif) right top;
+	background: url(../../images/shared/nav/pro_line_1.gif) right top;
 	cursor: pointer;
 	display: block;
 	float: left;
@@ -104,7 +104,7 @@ way to fit your requirements.
 	}
 .nav .select :hover .select_sub, 
 .nav .current .show	{
-	background: url(../images/shared/nav/back_0.gif);
+	background: url(../../images/shared/nav/back_0.gif);
 	 
 	display: block;
 	left: 0;
@@ -130,13 +130,13 @@ way to fit your requirements.
 	white-space: nowrap;
 	}
 .nav .current .sub li.sub_show a	{
-	background: url(../images/shared/nav/menus/back_1.gif);
+	background: url(../../images/shared/nav/menus/back_1.gif);
 	color: #088;
 	cursor: default;
 	}
 .nav .select :hover .sub li a:hover, 
 .nav .current .sub li a:hover	{
-	background: url(../images/shared/nav/menus/back_1.gif);
+	background: url(../../images/shared/nav/menus/back_1.gif);
 	color: #088;
 	visibility: visible;
 	}
