@@ -138,6 +138,7 @@ height:15px;
 
 #page-heading	{
 	margin: 0 0 15px 20px;
+    text-align:  center;
 	}
   h1	{
 	color: #4b4b4b;
@@ -1570,6 +1571,7 @@ div#tipofunc{
     height: 4000;
     float: right;
     margin-top: 100px;
+    margin-right: 100px;
 }
 
 ul#tiposfuncionarios p{text-align: center; border-style:double; font-family: sans-serif;}
@@ -1583,40 +1585,40 @@ ul#equipe p{text-align: center; border-style: double; font-family: sans-serif;}
 ul#equipe li{text-align: center;}
 
 div#encima{
-    width: 500px;
-    height: 100px;    
+    width: 400px;
+    height: 50px;    
 }
 
 div#textfuncionarios {
     background-color: white;
     width: 600;
-    height: 20;
-    margin-top: 50px;
+    height: 15px;
+    margin-top: 70px;
 }
 ul#menutext {
     background-color: white;
     
 }
 ul#menutextfunc li {
-    background-color: white;
     display: inline;
     padding-right: 135px;
 }   
 
-ul#menutextcabe li{
+ul#menutextcabe {
     list-style-type: none;
-    width: 60px;
-    overflow: auto;
-    margin-bottom: 4;  
+    width: 40px;
+    float: left;
+    display: list-item;
 }
+
+#menutextcabe li{margin-top: 3px;}
 /* Não modificando a em um modo lista, tamanho defaut, sem bolinhas do lado, arredando para chegar proximo ao texto escrito e ancora na direita.*/
-ul#inputcabe li{
+ul#inputcabe{
     list-style-type: none;
-    display:list-item;
     float: right;
-    margin-right:
+    margin-right: 180px;
 }
 
-ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 70px;margin-top: 50px}
+ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 70px;margin-top: 30px}
 
-ul#resto li{margin-left: 10;}
+ul#resto li{margin-right: 20px;}
