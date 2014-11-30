@@ -1568,7 +1568,7 @@ div#inputfuncionarios {
 
 div#tipofunc{
     width: 400;
-    height: 4000;
+    height: 330px;;
     float: right;
     margin-top: 100px;
     margin-right: 100px;
@@ -1583,6 +1583,14 @@ ul#equipe{list-style-type: none;}
 ul#equipe p{text-align: center; border-style: double; font-family: sans-serif;}
 
 ul#equipe li{text-align: center;}
+
+ul#tituloEQP{list-style-type: none; text-align: center;width: 116px;}
+
+li#necessario{margin-top: 3px;}
+
+#tituloQTD{list-style-type: none; text-align: center; width: 60px; float: right;}
+
+#tituloQTD input[type="text"]{width: 50px;}
 
 div#encima{
     width: 400px;

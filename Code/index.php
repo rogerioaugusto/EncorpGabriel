@@ -185,7 +185,7 @@ $(document).pngFix( );
 
 	<!-- start logo -->
 	<div id="logo">
-	<a href="index.html"><img src="images/shared/logo.png" width="156" height="40" alt="" /></a>
+	<a href="index.html"><img src="images/shared/citing.png" width="156" height="40" alt="" /></a>
 	</div>
 	<!-- end logo -->
 	
@@ -341,15 +341,35 @@ $(document).pngFix( );
                 <div id="tipofunc">
                     <ul id="tiposfuncionarios">
                         <li><p>Tempo do processo</p></li>
+                        <br>
                         <li>Inicio:<br><input type="date" id="datainicio"></li>
                         <li>Fim:<br><input type="date" id="datafim"></li>
                         <li>Duracao:<br><input type="type" id="duracao" placeholder="dias"></li>
+                        <br>
                     </ul>
                     <ul id="equipe">
                         <li><p>EQUIPE</p></li>
-                        <li></li>
                     </ul>
-
+                    <ul id="tituloQTD">
+                        <li>QUANT</li>
+                        <li><input type="text" id="carpinteiro"></li>
+                        <li><input type="text" id="ferreiro"></li>
+                        <li><input type="text" id="pedreiro"></li>
+                        <li><input type="text" id="encanador"></li>
+                        <li><input type="text" id="eletricista"></li>
+                        <li><input type="text" id="gesseiro"></li>
+                        <li><input type="text" id="servente"></li>
+                    </ul>
+                    <ul id="tituloEQP">
+                        <li id="titulo">FUNÇÃO</li>
+                        <li id="necessario">Carpinteiro</li>
+                        <li id="necessario">Ferreiro</li>
+                        <li id="necessario">Pedreiro</li>
+                        <li id="necessario">Encanador</li>
+                        <li id="necessario">Eletricista</li>
+                        <li id="necessario">Gesseiro</li>
+                        <li id="necessario">Serv. de obras</li>
+                    </ul>
                 </div>
                 
                 <div id="textfuncionarios">
