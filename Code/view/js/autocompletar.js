@@ -1,4 +1,8 @@
 
+var connection = new ActivexObject("ADODB.Connection");
+
+var connetcionstring ="Data Source=<>";
+
 //Function escolhenome(){
 //    var mysql = mysql_query("SELECT id, nome FROM quadros");
 //    while(func = mysql_fetch_object(mysql)){
@@ -16,7 +20,7 @@
 
     $(function(){
         var registros = ["Rogerio","Yuri","Amanda"];
-        $("#nome"+cont).autocomplete({
+        $("#nome").autocomplete({
             source: registros
         });
     });

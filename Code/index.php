@@ -190,10 +190,35 @@ $(document).pngFix( );
 	<!-- end logo -->
 	
 	<!--  start top-search -->
+    
 	<div id="top-search">
+        
+        <script>
+			function pegacodigo(codigo){
+				$.post("tarefa.php",{codigo:codigo},function(retorno){
+					dadostrf = retorno.split("/");
+					$('#tarefa').val(dadostrf[0]);
+					$('#obra').val(dadostrf[1]);
+                    $('#carpinteiro').val(dadotrf[2]);
+                    $('#ferreiro').val(dadotrf[3]);
+                    $('#pedreiro').val(dadotrf[4]);
+                    $('#encanador').val(dadotrf[5]);
+                    $('#eletricista').val(dadotrf[6]);
+                    $('#gesseirp').val(dadotrf[7]);
+                    $('#servente').val(dadotrf[8]);
+				});
+			}
+        </script>
+        
+        
 		<table border="0" cellpadding="0" cellspacing="0">
 		<tr>
-		<td><input type="text" value="Search" onblur="if (this.value=='') { this.value='Search'; }" onfocus="if (this.value=='Search') { this.value=''; }" class="top-search-inp" /></td>
+		<td><!--<input type="text" value="Codigo" id="codigo" onblur="pegacodigo(this.value)" onfocus="if (this.value=='Codigo') { this.value=''; }" class="top-search-inp" />--><form method="post" id="codigo">
+            <select name="codigo" onChange="pegacodigo(this.value)"><option value="">Escolha um codigo</option><?php
+                	    $sql = mysql_query("SELECT codigo FROM tarefa");while($trf = mysql_fetch_object($sql)){echo "<option value='$trf->codigo'>$trf->codigo</option>";}
+            ?>
+                </form>
+            </td>
 		<td>
 		<input type="image" src="images/shared/top_search_btn.gif"  />
 		</td>
