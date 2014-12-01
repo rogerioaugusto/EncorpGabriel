@@ -1624,8 +1624,10 @@ ul#menutextcabe {
 ul#inputcabe{
     list-style-type: none;
     float: right;
-    margin-right: 180px;
+    margin-right: 150px;
 }
+
+#inputcabe input{width: 200px;}
 
 ul#resto{float:left; display: inline-flex; list-style-type: none; margin-left: 70px;margin-top: 30px}
 
