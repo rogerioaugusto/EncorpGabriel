@@ -194,18 +194,18 @@ $(document).pngFix( );
 	<div id="top-search">
         
         <script>
-			function pegacodigo(codigo){
-				$.post("tarefa.php",{codigo:codigo},function(retorno){
-					dadostrf = retorno.split("/");
-					$('#tarefa').val(dadostrf[0]);
-					$('#obra').val(dadostrf[1]);
-                    $('#carpinteiro').val(dadotrf[2]);
-                    $('#ferreiro').val(dadotrf[3]);
-                    $('#pedreiro').val(dadotrf[4]);
-                    $('#encanador').val(dadotrf[5]);
-                    $('#eletricista').val(dadotrf[6]);
-                    $('#gesseirp').val(dadotrf[7]);
-                    $('#servente').val(dadotrf[8]);
+			function pegacodigo(id){
+				$.post("tarefa.php",{id:id},function(retorno){
+					dados = retorno.split("/");
+					$('#obra').val(dados[0]);
+                    $('#tarefa').val(dados[1]);
+                    $('#carpinteiro').val(dados[2]);
+                    $('#ferreiro').val(dados[3]);
+                    $('#pedreiro').val(dados[4]);
+                    $('#encanador').val(dados[5]);
+                    $('#eletricista').val(dados[6]);
+                    $('#gesseirp').val(dados[7]);
+                    $('#servente').val(dados[8]);
 				});
 			}
         </script>
@@ -215,7 +215,7 @@ $(document).pngFix( );
 		<tr>
 		<td><!--<input type="text" value="Codigo" id="codigo" onblur="pegacodigo(this.value)" onfocus="if (this.value=='Codigo') { this.value=''; }" class="top-search-inp" />--><form method="post" id="codigo">
             <select name="codigo" onChange="pegacodigo(this.value)"><option value="">Escolha um codigo</option><?php
-                	    $sql = mysql_query("SELECT codigo FROM tarefa");while($trf = mysql_fetch_object($sql)){echo "<option value='$trf->codigo'>$trf->codigo</option>";}
+                	    $sql = mysql_query("SELECT id, codigo FROM tarefas");while($trf = mysql_fetch_object($sql)){echo "<option value='$trf->id'>$trf->codigo</option>";}
             ?>
                 </form>
             </td>
